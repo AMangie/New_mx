@@ -100,7 +100,7 @@
                                                     <label for="pnr" class="FormInput-label FormInput-label--undefined" aria-required="false">
                                                         <span>PNR</span>
                                                     </label>
-                                                    <input type="text"  spellcheck="true" maxlength="30" id="pnr" class="FormInput-input" autocorrect="on" autocapitalize="on" aria-disabled="false" aria-describedby="middleName-error-text">
+                                                    <input type="text" name="pg_recordLocator" spellcheck="true" maxlength="30" id="pnr" class="FormInput-input" autocorrect="on" autocapitalize="on" aria-disabled="false" aria-describedby="middleName-error-text">
                                                 </div>
                                         </div>
                                         <div class="FormInput">
@@ -108,13 +108,15 @@
                                                     <label for="middleName" class="FormInput-label FormInput-label--undefined" aria-required="false">
                                                         <span>Tus apellidos</span>
                                                     </label>
-                                                    <input type="text"  spellcheck="true" id="lastNames" class="FormInput-input" autocorrect="on" autocapitalize="on" aria-disabled="false" aria-describedby="middleName-error-text">
+                                                    <input type="text" name="pg_lastName" spellcheck="true" id="lastNames" class="FormInput-input" autocorrect="on" autocapitalize="on" aria-disabled="false" aria-describedby="middleName-error-text">
                                                 </div>
                                         </div>
+                                        <input name="pg_apiKey" type="hidden" value="UjQQZzz1WDJRiwJlsH0bZuu6" />
+                                        <input name="pg_language" type="hidden" value="es" /> 
                                   </div>  
                             </div>
                             <div class="TravelerInfo-bookSubmitBtn">
-                                <input type="submit" class="Btn Btn--block Btn--filledRed" value="Enviar">
+                                <input type="submit" name="pg_submit" class="Btn Btn--block Btn--filledRed" value="Enviar">
                             </div>    
                         </form>
                     </div>
